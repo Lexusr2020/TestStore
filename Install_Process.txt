@@ -1,0 +1,37 @@
+Set up shopify Dev Enviroment
+
+- set theme for shopify store
+- create new folder for where theme files will live
+- create README.MD FILE in theme folder
+- git init
+
+----------GitHub-------------------
+- create new repository for working theme
+- on VS Code use powershell terminal
+- run
+    git init          
+    git add .\README.MD   (git add .    -will add all files and folders)
+    git commit -m "message"
+    git remote add origin https://github.com/Lexusr2020/TestStore.git -- hhtps will be different based on the respository
+    git remote -v will list the following 
+        origin  https://github.com/Lexusr2020/TestStore.git (fetch)
+        origin  https://github.com/Lexusr2020/TestStore.git (push)
+
+    git push origin master
+        this message will appear
+                Enumerating objects: 3, done.
+                Counting objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 253 bytes | 253.00 KiB/s, done.
+                Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+                To https://github.com/Lexusr2020/TestStore.git
+                * [new branch]      master -> master
+
+    check GitHub repository and check all files have been added
+
+
+
+
+-----------Install Choco -------------
+
+
+
